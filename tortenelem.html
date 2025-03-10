@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Németország</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      body {
+          background-size: cover;
+          color: #f1c40f;
+          font-family: 'Dancing Script', cursive;
+      }
+      .navbar {
+          background-color: #8b0000 !important;
+      }
+      .navbar a {
+          color: #d4af37 !important;
+      }
+      .city-container {
+          display: flex;
+          justify-content: space-around;
+          padding: 20px;
+          flex-wrap: wrap;
+      }
+      .city {
+          background-color: rgba(139, 0, 0, 0.8);
+          padding: 20px;
+          border-radius: 10px;
+          width: 45%;
+          color: white;
+          margin-bottom: 20px;
+          text-align: center;
+      }
+      h2 {
+          color: #d4af37;
+      }
+      .city img {
+          width: 100%;
+          border-radius: 10px;
+          margin-bottom: 15px;
+      }
+      .font {
+        font-size: 25px;
+      }
+  </style>
 </head>
-<body>
+<body class="bg-dark">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Németország</a>
@@ -20,7 +59,9 @@
                 <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="tortenelem.html">Történelem</a>
+                <a class="nav-link active" href="tortenelem.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>Történelem</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="helyek.html">Főbb helyek</a>
@@ -29,5 +70,40 @@
           </div>
         </div>
       </nav>
+      <br><br><br>
+      <div style="margin-left: 40px;">
+        <p>
+        <h1 style="text-align: center;">Német Történelem</h1>
+        <div style="float: right;">
+          <img src="media/22326.jpg" alt="Német katonák" height="500px">
+        </div>
+        <p style="font-size: medium;" >Az 1. és a 2. Világháború Német ország szempontjábol:</p>
+        <p>
+          - Az 1. Világháború a Magyar-Osztrák monarchia háborút inditása Szerbia ellen kezdődött. <br>
+          -Két Frontos Háborút folytattak a Franciákkal és az Oroszokkal. <br>
+          -A Németek abban reménykedtek hogy még mielött az Oroszok felkészülnek a háborúra és mozgósitják a katónáikat elfoglalják Francia Országot. <br>
+          -Német ország Belgiumon keresztül szerette volna meglepni a Franciákat és körbe keríteni az Angol és Francia szövetségeseket. <br>
+          -Mivel nem volt teljesen sikeres a küldetésük ezért bombázó léghajókat küldtek a Brittekhez meg U-bootokat. <br>
+          -Végül az Szovjetek is csatlakoztak a háborűhoz <br>
+          -Végül egy hosszu álló háború került sorra két fronton a Németeknek <br>
+          -Német ország és a szövetségese (Osztrák-Magyar monarchia) oriási veszteségeket szenvedt és pénz büntetéseket. <br>
+         </p>
+         <p style="font-size: medium;" >A 2. Világháború Német ország szempontjábol:</p>
+         <p></p>
+
+         </p>
+         1933 - Hitler hatalomra kerül, és elkezdi a német fegyverkezést, megszegve az 1920-as versailles-i békeszerződést. <br>
+         1936-1939 - Németország támogatta Franco tábornokot a spanyol polgárháborúban, miközben megszállta a Rajna-vidéket, majd csatlakozott az Antikomintern Paktumhoz (Japán és Olaszország mellett). <br>
+         1938 - Az Anschluss során Hitler bekebelezte Ausztriát, majd a Müncheni Egyezményben megszerezte a Szudéta-vidéket (Csehszlovákia része). <br>
+         1939 - Hitler és Sztálin megkötötték a Molotov-Ribbentrop-paktumot, amely titkos záradékban kimondta Lengyelország felosztását. <br>
+         1940 - Franciaország gyors veresége, Angliai csata, Hitler nem tudja legyőzni Angliát. <br>
+         1941 - Barbarossa-hadművelet: Németország megtámadja a Szovjetuniót, kezdetben sikeres, de Moszkvánál elakad. Japán támadása után az USA belép a háborúba. <br>
+         1942-1943 - Fordulópontok: Sztálingrádi vereség, Kurszki csata, a németek visszaszorulnak. <br>
+         1944 - D-nap: a szövetségesek partra szállnak Normandiában, Németország kétfrontos háborúba kényszerül. <br>
+         1945 - Berlin eleste, Hitler öngyilkossága, Németország kapitulál május 8-án. <br>
+        </p>
+      </div>
+
+        
 </body>
 </html>
